@@ -20,7 +20,7 @@ You can install the plugin with bower like so:
 
 ### Including stuff
 
-Then you should should include jQuery and plugin in your HTML:
+Then you should include jQuery and plugin in your HTML:
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="jquery.showup.min.js"></script>
