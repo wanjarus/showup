@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usage example / jQuery.showup plugin</title>
+    <link rel="stylesheet" href="example.css">
+
+    <!-- Load jQuery and Showup plugin -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="../src/jquery.showup.js"></script>
+
+    <script>
+        $(document).ready(function(){ // Launch the script after the DOM is ready
+
+            $('#orange-box').showup(function(){
+                $('#black-box').html('Bar');
+            });
+
+            $('#green-box').showup(function(){
+                $('#black-box').html('Foobar');
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <p>
+        Scroll down to see the orange box.<br>
+        As you see it, the text in the black box below will change to "Bar".<br>
+        Scroll down to the green box to see the text being changed to "Foobar".<br>
+        Made by <a href="http://acost.cc" target="_blank">Andrey Kostenko</a>, 2016.
+    </p>
+
+    <div id="black-box">Foo</div>
+    <div id="orange-box">Hello World!</div>
+    <div id="green-box">You've reached me finally!</div>
+</body>
+</html>

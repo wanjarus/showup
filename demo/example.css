@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 4250px;
+}
+
+p, #black-box {
+    position: fixed;
+    z-index: 1;
+}
+
+p {
+    background: #f7f7f7;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#black-box,
+#orange-box,
+#green-box {
+    color: white;
+    font-size: 16px;
+    height: 200px;
+    left: 50%;
+    line-height: 200px;
+    margin-left: -100px;
+    text-align: center;
+    width: 200px;
+}
+
+#black-box {
+    background: black;
+    top: 150px;
+}
+
+#orange-box {
+    background: orange;
+    position: absolute;
+    top: 3500px;
+}
+
+#green-box {
+    background: green;
+    position: absolute;
+    top: 4000px;
+}
