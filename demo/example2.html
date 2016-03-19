@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usage example 2 / jQuery.showup plugin</title>
+    <link rel="stylesheet" href="example.css">
+
+    <!-- Load jQuery and Showup plugin -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="../src/jquery.showup.js"></script>
+
+    <script>
+        $(document).ready(function(){ // Launch the script after the DOM is ready
+
+            $('#orange-box, #green-box').showup(function(){
+                $(this).hide().fadeIn(300);
+            });
+
+        });
+    </script>
+</head>
+<body>
+<p>
+    Scroll down to see green and orange boxes.<br>
+    Pay attention to how their appearance is animated.<br>
+    Made by <a href="http://acost.cc" target="_blank">Andrey Kostenko</a>, 2016.
+</p>
+
+<div id="orange-box">Hello World!</div>
+<div id="green-box">You've reached me finally!</div>
+</body>
+</html>
