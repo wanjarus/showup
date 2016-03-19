@@ -1,6 +1,6 @@
 /**
  * jQuery Showup Plugin
- * @version 1.0.0
+ * @version 1.0.1
  * @author Andrey Kostenko
  * @license MIT
  * @copyright Andrey Kostenko 2016
@@ -21,7 +21,7 @@
                 if ( isShownUp( elements[i] ) ) {
 
                     // Executing the callback
-                    $( elements[i] ).data( 'showup_callback' )();
+                    $( elements[i] ).data( 'showup_callback' ).call( elements[i] );
 
                     // Removing callback and element references to avoid it firing again and again.
                     $( elements[i] ).data( 'showup_callback', null );
