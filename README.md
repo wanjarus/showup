@@ -6,7 +6,7 @@ jQuery.showup can be used, for instance, to add some visual effects as user scro
 
 ## Demo
 
-Check out the demo <a href="http://acostcc.github.com/showup.html" target="_blank">here</a>.
+Check out the demos <a href="http://acostcc.github.com/showup.html" target="_blank">here</a> and <a href="http://acostcc.github.com/showup2.html" target="_blank">here</a>.
 
 ## Usage
 
